@@ -16,5 +16,48 @@ $(document).ready(function(){
       $li.addClass("open");
     }
   });
+
+    var app = $.sammy(function () {
+
+        this.get('/Intranet/faculty-dashboard/', function () {
+            $('#facdashboard-main').html('  ');
+        });
+        this.get('/Intranet/faculty-dashboard/#Profile', function () {
+
+            $.ajax({
+                url: "../php/editprofile.php",
+                success: function (data) {
+                    $('#facdashboard-main').html(data);
+                }
+            });
+        });
+        this.get('/Intranet/faculty-dashboard/#Subjects', function () {
+
+            $.ajax({
+                url: "../php/facsubject.php",
+                success: function (data) {
+                    $('#facdashboard-main').html(data);
+                }
+            });
+        });
+        this.get('/Intranet/faculty-dashboard/#Notice', function () {
+            $.ajax({
+                url: "../php/facnotice.php",
+                success: function (data) {
+                    $('#facdashboard-main').html(data);
+                }
+            });
+        });
+        this.get('/Intranet/faculty-dashboard/#Event', function () {
+            $.ajax({
+                url: "../php/newevent.php",
+                success: function (data) {
+                    $('#facdashboard-main').html(data);
+                }
+            });
+        });
+
+    });
+    app.run();
   
 });

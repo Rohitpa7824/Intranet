@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap -->
     <link href="../css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/uploadfile.css">
+    <link rel="stylesheet" href="../css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="../css/font-awesome.min.css">
+
+
     <!-- styles -->
     <link href="../css/facdashboard.css" rel="stylesheet">
 
@@ -13,22 +19,24 @@
 <div class="header">
     <div class="container">
         <div class="row">
+            <div class="col-md-4">
+                <div class="goback"><a href="../"><i class="fa fa-left"></i>Return back to Intranet</a></div>
+            </div>
             <div class="col-md-5">
-                <!-- Logo -->
                 <div class="logo">
                     <h1><a href="index.html">Faculty Dashboard</a></h1>
                 </div>
             </div>
-            <div class="col-md-5">
-
-            </div>
-            <div class="col-md-2">
-                <div class="navbar navbar-inverse" role="banner">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">Logout</li>
-                    </ul>
-                </div>
-            </div>
+            <!--            <div class="col-md-5">-->
+            <!---->
+            <!--            </div>-->
+            <!--            <div class="col-md-2">-->
+            <!--                <div class="navbar navbar-inverse" role="banner">-->
+            <!--                    <ul class="navbar-nav">-->
+            <!--                        <li class="nav-item">Logout</li>-->
+            <!--                    </ul>-->
+            <!--                </div>-->
+            <!--            </div>-->
         </div>
     </div>
 </div>
@@ -39,9 +47,11 @@
             <div class="sidebar content-box" style="display: block;">
                 <ul class="nav">
                     <!-- Main menu -->
-                    <li class="current navelement"><a href="index.html"><i class="glyphicon glyphicon-home"></i>Profile</a></li>
-                    <li class="navelement"><a href="calendar.html"><i class="glyphicon glyphicon-calendar"></i>Subjects</a></li>
-                    <li class="navelement"><a href="stats.html"><i class="glyphicon glyphicon-stats"></i> Notice</a></li>
+                    <li class="current navelement"><a href="#"">Home</a></li>
+                    <li class="navelement"><a href="#Profile"">Profile</a></li>
+                    <li class="navelement"><a href="#Subjects">Subjects</a></li>
+                    <li class="navelement"><a href="#Notice">Notice</a></li>
+                    <li class="navelement"><a href="#Event">Events</a></li>
                     <!-- <li><a href="tables.html"><i class="glyphicon glyphicon-list"></i> </a></li> -->
 
                     <!-- <li class="submenu">
@@ -58,25 +68,19 @@
                 </ul>
             </div>
         </div>
-        <div class="col-md-10">
+        <div class="col-md-10" id="facdashboard-main">
 
         </div>
     </div>
 </div>
 
-<!--<footer>-->
-<!--    <div class="container">-->
-<!---->
-<!--        <div class="copy text-center">-->
-<!--            Copyright 2014 <a href='#'>Website</a>-->
-<!--        </div>-->
-<!---->
-<!--    </div>-->
-<!--</footer>-->
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="../js/jquery-3.2.1.min.js"></script>
 <script src="../js/bootstrap.min.js"></script>
+<script type="text/javascript" src="../js/sammy-latest.min.js"></script>
+<script src="../js/jquery.uploadfile.min.js"></script>
+<script src="../js/bootstrap-datepicker.js"></script>
 <script src="../js/facdashboard.js"></script>
 </body>
 </html>

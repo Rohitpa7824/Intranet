@@ -1,18 +1,7 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Intranet</title>
-    <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
-    <link rel="stylesheet" href="../css/bootstrap-datepicker.css">
-    <link rel="stylesheet" href="../css/newevent.css">
-    <script src="../js/jquery-3.2.1.min.js"></script>
-<!--    <link href="http://hayageek.github.io/jQuery-Upload-File/4.0.10/uploadfile.css" rel="stylesheet">-->
-<!--    <script src="http://hayageek.github.io/jQuery-Upload-File/4.0.10/jquery.uploadfile.min.js"></script>-->
-    <link rel="stylesheet" href="../css/uploadfile.css">
-    <script src="../js/jquery.uploadfile.min.js"></script>
-</head>
-<body>
+<?php
 
+$cont = <<<EOT
+<link rel="stylesheet" href="../css/newevent.css">
 <!--API USED == http://hayageek.com/docs/jquery-upload-file.php#multi-->
 <div id="newevent-section-heading">
     Create new Event
@@ -126,10 +115,7 @@
             <div class="btn btn-primary" id="submitbtn">Create Event</div>
         </div>
     </div>
-
-
-</form>
-<script src="../js/bootstrap-datepicker.js"></script>
-<script src="../js/newevent.js"></script>
-</body>
-</html>
+    <script src="../js/newevent.js"></script>
+EOT;
+print($cont);
+?>
