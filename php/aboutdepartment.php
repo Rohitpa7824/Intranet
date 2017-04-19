@@ -43,14 +43,14 @@ $cont = <<<EOT
                                     <div class="col-md-3">
                                         <div class="card">
                                             <div class="card-img-top card-img-top-250">
-                                                <img class="img-fluid fac-img" src="http://i.imgur.com/EW5FgJM.png" alt="Carousel 1">
+                                                <img class="img-fluid fac-img" src="img/fac1.jpg" alt="Carousel 1">
                                             </div>
                                             <div class="card-block p-t-2">
                                                 <div class="card-name">
-                                                    Dr. Darshak Thakore
+                                                    Darshak Guaravbhai Thakore
                                                 </div>
                                                 <div class="card-post">
-                                                    Head of Department
+                                                    Professor & HOD
                                                 </div>
 
                                             </div>
@@ -60,14 +60,14 @@ $cont = <<<EOT
                                     <div class="col-md-3">
                                         <div class="card">
                                             <div class="card-img-top card-img-top-250">
-                                                <img class="img-fluid fac-img" src="http://i.imgur.com/Hw7sWGU.png" alt="Carousel 2">
+                                                <img class="img-fluid fac-img" src="img/Fac2.jpg" alt="Carousel 2">
                                             </div>
                                             <div class="card-block p-t-2">
                                                 <div class="card-name">
-                                                    Dr. Darshak Thakore
+                                                    Mayur Mansukhlal Vegad
                                                 </div>
                                                 <div class="card-post">
-                                                    Head of Department
+                                                    Professor
                                                 </div>
 
                                             </div>
@@ -78,14 +78,14 @@ $cont = <<<EOT
                                     <div class="col-md-3">
                                         <div class="card">
                                             <div class="card-img-top card-img-top-250">
-                                                <img class="img-fluid fac-img" src="http://i.imgur.com/g27lAMl.png" alt="Carousel 3">
+                                                <img class="img-fluid fac-img" src="img/Fac3.jpg" alt="Carousel 3">
                                             </div>
                                             <div class="card-block p-t-2">
                                                 <div class="card-name">
-                                                    Dr. Darshak Thakore
+                                                    Sunil  Arjundas Bakhru
                                                 </div>
                                                 <div class="card-post">
-                                                    Head of Department
+                                                    Associate Professor
                                                 </div>
 
                                             </div>
@@ -95,14 +95,14 @@ $cont = <<<EOT
                                     <div class="col-md-3">
                                         <div class="card">
                                             <div class="card-img-top card-img-top-250">
-                                                <img class="img-fluid fac-img" src="http://i.imgur.com/g27lAMl.png" alt="Carousel 3">
+                                                <img class="img-fluid fac-img" src="img/Fac4.jpg" alt="Carousel 3">
                                             </div>
                                             <div class="card-block p-t-2">
                                                 <div class="card-name">
-                                                    Dr. Darshak Thakore
+                                                    Prashant B Swadas
                                                 </div>
                                                 <div class="card-post">
-                                                    Head of Department
+                                                    Associate Professor
                                                 </div>
 
                                             </div>
@@ -115,14 +115,14 @@ $cont = <<<EOT
                                     <div class="col-md-3">
                                         <div class="card">
                                             <div class="card-img-top card-img-top-250">
-                                                <img class="img-fluid fac-img" src="//visualhunt.com/photos/l/1/office-student-work-study.jpg" alt="Carousel 4">
+                                                <img class="img-fluid fac-img" src="img/Fac5.jpg" alt="Carousel 4">
                                             </div>
                                             <div class="card-block p-t-2">
                                                 <div class="card-name">
-                                                    Dr. Darshak Thakore
+                                                    Narendra Manorbhai Patel
                                                 </div>
                                                 <div class="card-post">
-                                                    Head of Department
+                                                    Associate Professor
                                                 </div>
 
                                             </div>
@@ -133,14 +133,14 @@ $cont = <<<EOT
                                     <div class="col-md-3">
                                         <div class="card">
                                             <div class="card-img-top card-img-top-250">
-                                                <img class="img-fluid fac-img" src="//visualhunt.com/photos/l/1/working-woman-technology-computer.jpg" alt="Carousel 5">
+                                                <img class="img-fluid fac-img" src="img/Fac6.jpg" alt="Carousel 5">
                                             </div>
                                             <div class="card-block p-t-2">
                                                 <div class="card-name">
-                                                    Dr. Darshak Thakore
+                                                    Mosin Ibrahim hasan
                                                 </div>
                                                 <div class="card-post">
-                                                    Head of Department
+                                                    Assistant Professor
                                                 </div>
 
                                             </div>
@@ -150,14 +150,14 @@ $cont = <<<EOT
                                     <div class="col-md-3">
                                         <div class="card">
                                             <div class="card-img-top card-img-top-250">
-                                                <img class="img-fluid fac-img" src="//visualhunt.com/photos/l/1/people-office-team-collaboration.jpg" alt="Carousel 6">
+                                                <img class="img-fluid fac-img" src="img/Fac7.jpg" alt="Carousel 6">
                                             </div>
                                             <div class="card-block p-t-2">
                                                 <div class="card-name">
-                                                    Dr. Darshak Thakore
+                                                    Hemant D Vasava
                                                 </div>
                                                 <div class="card-post">
-                                                    Head of Department
+                                                    Assistant Professor
                                                 </div>
 
                                             </div>
@@ -167,15 +167,103 @@ $cont = <<<EOT
                                     <div class="col-md-3">
                                         <div class="card">
                                             <div class="card-img-top card-img-top-250">
-                                                <img class="img-fluid fac-img" src="//visualhunt.com/photos/l/1/people-office-team-collaboration.jpg" alt="Carousel 6">
+                                                <img class="img-fluid fac-img" src="img/Fac8.jpg" alt="Carousel 6">
                                             </div>
                                             <div class="card-block p-t-2">
                                                 <div class="card-name">
-                                                    Dr. Darshak Thakore
+                                                    Bhavesh Ashokbhai Tanawala
                                                 </div>
                                                 <div class="card-post">
-                                                    Head of Department
+                                                    Assistant Professor
                                                 </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="card-deck carousel-item">
+                                    <div class="col-md-3">
+                                        <div class="card">
+                                            <div class="card-img-top card-img-top-250">
+                                                <img class="img-fluid fac-img" src="img/Fac9.jpg" alt="Carousel 4">
+                                            </div>
+                                            <div class="card-block p-t-2">
+                                                <div class="card-name">
+                                                    Kirtikumar Jashavantbhai Sharma
+                                                </div>
+                                                <div class="card-post">
+                                                    Associate Professor
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="col-md-3">
+                                        <div class="card">
+                                            <div class="card-img-top card-img-top-250">
+                                                <img class="img-fluid fac-img" src="img/fac10.jpg" alt="Carousel 5">
+                                            </div>
+                                            <div class="card-block p-t-2">
+                                                <div class="card-name">
+                                                    Dr. Udesang K  Jaliya
+                                                </div>
+                                                <div class="card-post">
+                                                    Assistant Professor
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-3">
+                                        <div class="card">
+                                            <div class="card-img-top card-img-top-250">
+                                                <img class="img-fluid fac-img" src="img/fac11.jpg" alt="Carousel 6">
+                                            </div>
+                                            <div class="card-block p-t-2">
+                                                <div class="card-name">
+                                                     Mahasweta Jayantbhai Joshi
+                                                </div>
+                                                <div class="card-post">
+                                                    Assistant Professor
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-3">
+                                        <div class="card">
+                                            <div class="card-img-top card-img-top-250">
+                                                <img class="img-fluid fac-img" src="img/fac12.jpg" alt="Carousel 6">
+                                            </div>
+                                            <div class="card-block p-t-2">
+                                                <div class="card-name">
+                                                    Bhadreshbhai c Patel
+                                                </div>
+                                                <div class="card-post">
+                                                     Computer Operator
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-deck carousel-item">
+                                    <div class="col-md-3">
+                                        <div class="card">
+                                            <div class="card-img-top card-img-top-250">
+                                                <img class="img-fluid fac-img" src="img/fac13.jpg" alt="Carousel 4">
+                                            </div>
+                                            <div class="card-block p-t-2">
+                                                <div class="card-name">
+                                                    Bindu V. Raval
+                                                </div>
+                                                <div class="card-post">
+                                                    Computer Operator
+                                                </div>
+
                                             </div>
                                         </div>
                                     </div>

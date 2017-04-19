@@ -11,3 +11,7 @@ body {
     display: block;
     position: fixed;
 }
+
+.bg-inverse {
+    background-color: #3831c4 !important;
+}

@@ -18,7 +18,7 @@
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
-    <a class="navbar-brand" href="#">CP-DEPARTMENT</a>
+    <a class="navbar-brand" href="#">CP-DEPARTMENT INTRANET</a>
 
     <div class="collapse navbar-collapse">
         <ul class="navbar-nav mr-auto">
@@ -77,16 +77,16 @@
         </div>
         <div class="com-md-2">
             <div class="list-group" id="sidebar">
-                <a href="#" class="list-group-item">Link</a>
-                <a href="#" class="list-group-item">Link</a>
-                <a href="#" class="list-group-item">Link</a>
-                <a href="#" class="list-group-item">Link</a>
-                <a href="#" class="list-group-item">Link</a>
-                <a href="#" class="list-group-item">Link</a>
-                <a href="#" class="list-group-item">Link</a>
-                <a href="#" class="list-group-item">Link</a>
-                <a href="#" class="list-group-item">Link</a>
-                <a href="#" class="list-group-item">Link</a>
+                <a href="owncloud/index.php" class="list-group-item">Own Cloud</a>
+                <a href="w3school/w3schools/w3schools/index.html" class="list-group-item">W3Schools</a>
+                <a href="iitb/" class="list-group-item">IITB Spoken Tutorials</a>
+                <a href="iitb/c" class="list-group-item">C/C++ Language</a>
+                <a href="iitb/python" class="list-group-item">Python Language</a>
+                <a href="iitb/cw" class="list-group-item">Computer Workshop</a>
+                <a href="moodle" class="list-group-item">Moodle</a>
+                <!--                <a href="#" class="list-group-item">Link</a>-->
+                <!--                <a href="#" class="list-group-item">Link</a>-->
+                <!--                <a href="#" class="list-group-item">Link</a>-->
             </div>
         </div>
 
