@@ -5,79 +5,68 @@ $(document).ready(function () {
         this.get('/Intranet/', function() {
             $('#Homeli').parent().addClass('active');
             $('#Homeli').parent().siblings().removeClass("active");
-            $.ajax({
-                url:"php/homepage.php",
-                success:function (data) {
-                    $('#main-content').html(data);
-                }
-            });
+
+            $.get('php/homepage.html', function (data) {
+                var template=Handlebars.compile(data);
+                $('#main-content').html(template({}));
+            }, 'html');
         });
         this.get('/Intranet/#About_Department', function() {
             $('#About_Departmentli').parent().addClass('active');
             $('#About_Departmentli').parent().siblings().removeClass("active");
-            $.ajax({
-                url:"php/aboutdepartment.php",
-                success:function (data) {
-                    $('#main-content').html(data);
-                }
-            });
+
+            $.get('php/aboutdepartment.html', function (data) {
+                var template=Handlebars.compile(data);
+                $('#main-content').html(template({}));
+            }, 'html');
         });
         this.get('/Intranet/#Course', function() {
             $('#Courseli').parent().addClass('active');
             $('#Courseli').parent().siblings().removeClass("active");
-            $.ajax({
-                url:"php/syllabus.php",
-                success:function (data) {
-                    $('#main-content').html(data);
-                }
-            });
+
+            $.get('php/syllabus.html', function (data) {
+                var template=Handlebars.compile(data);
+                $('#main-content').html(template({}));
+            }, 'html');
         });
         this.get('/Intranet/#Projects', function() {
             $('#Projectsli').parent().addClass('active');
             $('#Projectsli').parent().siblings().removeClass("active");
-            $.ajax({
-                url:"php/projects.php",
-                success:function (data) {
-                    $('#main-content').html(data);
-                }
-            });
+
+            $.get('php/projects.html', function (data) {
+                var template=Handlebars.compile(data);
+                $('#main-content').html(template({}));
+            }, 'html');
         });
         this.get('/Intranet/#Notice_Board', function() {
             $('#Notice_Boardli').parent().addClass('active');
             $('#Notice_Boardli').parent().siblings().removeClass("active");
-            $.ajax({
-                url:"php/noticeboard.php",
-                success:function (data) {
-                    $('#main-content').html(data);
-                }
-            });
+
+            $.get('php/noticeboard.html', function (data) {
+                var template=Handlebars.compile(data);
+                $('#main-content').html(template({}));
+            }, 'html');
         });
         this.get('/Intranet/#Events', function() {
             $('#Eventsli').parent().addClass('active');
             $('#Eventsli').parent().siblings().removeClass("active");
-            $.ajax({
-                url:"php/events.php",
-                success:function (data) {
-                    $('#main-content').html(data);
-                }
-            });
+
+            $.get('php/events.html', function (data) {
+                var template=Handlebars.compile(data);
+                $('#main-content').html(template({}));
+            }, 'html');
         });
         this.get('/Intranet/#Login', function() {
             $('#Loginli').parent().addClass('active');
             $('#Loginli').parent().siblings().removeClass("active");
-            $.ajax({
-                url:"php/login.php",
-                success:function (data) {
-                    $('#main-content').html(data);
-                }
-            });
+
+            $.get('php/login.html', function (data) {
+                var template=Handlebars.compile(data);
+                $('#main-content').html(template({}));
+            }, 'html');
         });
     });
     app.run();
 
-    // Navbar items color change on click
-    // $('.navbar-nav .nav-item').click(function () {
-    //     $(this).siblings().removeClass("active");
-    //     $(this).addClass("active");
-    // });
+
 });

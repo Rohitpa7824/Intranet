@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Bootstrap Admin Theme v3</title>
+    <title>Admin Page</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap -->
     <link href="../css/bootstrap.css" rel="stylesheet">
@@ -47,11 +47,11 @@
             <div class="sidebar content-box" style="display: block;">
                 <ul class="nav">
                     <!-- Main menu -->
-                    <li class="current navelement"><a href="#"">Home</a></li>
-                    <li class="navelement"><a href="#Profile"">Profile</a></li>
-                    <li class="navelement"><a href="#Subjects">Subjects</a></li>
-                    <li class="navelement"><a href="#Notice">Notice</a></li>
-                    <li class="navelement"><a href="#Event">Events</a></li>
+                    <li class="current navelement" id="navhome"><a href="#"">Home</a></li>
+                    <li class="navelement" id="navprofile"><a href="#Profile"">Profile</a></li>
+                    <li class="navelement" id="navsubj"><a href="#Subjects">Subjects</a></li>
+                    <li class="navelement" id="navnotice"><a href="#Notice">Notice</a></li>
+                    <li class="navelement" id="navevents"><a href="#Event">Events</a></li>
                     <!-- <li><a href="tables.html"><i class="glyphicon glyphicon-list"></i> </a></li> -->
 
                     <!-- <li class="submenu">
@@ -79,6 +79,7 @@
 <script src="../js/jquery-3.2.1.min.js"></script>
 <script src="../js/bootstrap.min.js"></script>
 <script type="text/javascript" src="../js/sammy-latest.min.js"></script>
+<script type="text/javascript" src="../js/handlebars-v4.0.5.js"></script>
 <script src="../js/jquery.uploadfile.min.js"></script>
 <script src="../js/bootstrap-datepicker.js"></script>
 <script src="../js/facdashboard.js"></script>

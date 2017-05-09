@@ -1,62 +1,65 @@
-<?php
 
-$cont = <<<EOT
-<link rel="stylesheet" type="text/css" href="css/projects.css">
-<div id="projects-top">
-    <div id="projects-section-heading">
-        Projects
+<link rel="stylesheet" type="text/css" href="css/events.css">
+<div id="event-top">
+    <div id="event-section-heading">
+        EVENTS
     </div>
-    <div class="jumbotron" id="projects-jumbotron">
-        <div id="projects-filter">
-            <div class="row projectsfilterrow">
+    <div class="jumbotron" id="event-jumbotron">
+        <div id="event-filter">
+            <div class="row eventfilterrow">
                 <div class="col-md-6">
                     <div class="row">
-                        <div class="col-md-4 projectsfilter-subheading">
-                            Filter By Type
-                        </div>
-                        <div class="col-md-4">
-                            <select class="custom-select" id="projects-select">
-                                <option value="None">Select Type</option>
-                                <option value="FinalYear">Final Year</option>
-                                <option value="C">C</option>
-                                <option value="C++">C++</option>
-                                <option value="Java">Java</option>
-                                <option value="Net">.Net</option>
-                                <option value="Web">Web Technology</option>
-                            </select>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row projectsfilterrow hidden" id="projects-yeardiv">
-                <div class="col-md-6">
-                    <div class="row">
-                        <div class="col-md-4 projectsfilter-subheading">
+                        <div class="col-md-4 eventfilter-subheading">
                             Filter By Year
                         </div>
                         <div class="col-md-4">
                             <select class="custom-select">
-                                <option value="All">All</option>
-                                <option value="2107">2017</option>
+                                <option value="2017">2017</option>
                                 <option value="2016">2016</option>
                                 <option value="2015">2015</option>
-                                <option value="2014">2014</option>
-                                <option value="2013">2013</option>
-                                <option value="2012">2012</option>
+                                <option value="All">All</option>
                             </select>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="row hidden" id="projects-filterdiv">
+            <div class="row eventfilterrow">
+                <div class="col-md-8 eventfilter-subheading">
+                    <div class="row">
+                        <div class="col-md-3 eventfilter-subheading">
+                            Filter Between Dates
+                        </div>
+                        <div class="col-md-3">
+                            <div class="input-group date" data-provide="datepicker">
+                                <input type="text" class="form-control">
+                                <div class="input-group-addon">
+                                    <span class="glyphicon glyphicon-th"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-1">
+                            To
+                        </div>
+                        <div class="col-md-3">
+                            <div class="input-group date" data-provide="datepicker">
+                                <input type="text" class="form-control">
+                                <div class="input-group-addon">
+                                    <span class="glyphicon glyphicon-th"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
                 <div class="col-md-2">
-                    <button class="btn btn-success" id="projectsapplyfilterbtn">Apply Filter</button>
+                    <button class="btn btn-success" id="eventapplyfilterbtn">Apply Filter</button>
                 </div>
                 <div class="col-md-2">
-                    <button class="btn btn-primary" id="projectsexportbtn">Export</button>
+                    <button class="btn btn-primary" id="eventexportbtn">Export</button>
                 </div>
                 <div class="col-md-6">
-                    <div id="projectsexportdiv" class="hidden">
+                    <div id="eventexportdiv" class="hidden">
                         <span id="exporttext">Export To :: </span>
                         <span id="exportbtns">
                             <button class="btn btn-info exporttypebtn" id="exportexcel">Excel</button>
@@ -71,65 +74,65 @@ $cont = <<<EOT
 
 </div>
 
-<div id="projects-main1" class="hidden">
-    <div id="projects-main1-container">
+<div id="event-main1">
+    <div id="event-main1-container">
         <div class="row">
             <div class="col-md-3">
-                <div class="projects-info-card-container">
-                    <div class="card projects-info-card" data-toggle="modal" data-target="#projects-Modal" >
-                        <div class="card-block projects-info-card-block">
-                            <h4 class="card-title projects-info-card-title">Expert lecture on "Convergence and unified communications"</h4>
-                            <!--                            <p class="card-text projects-info-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
+                <div class="event-info-card-container">
+                    <div class="card event-info-card" data-toggle="modal" data-target="#event-Modal" >
+                        <div class="card-block event-info-card-block">
+                            <h5 class="card-title event-info-card-title">Expert lecture on "Convergence and unified communications"</h5>
+<!--                            <p class="card-text event-info-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col-md-3">
-                <div class="projects-info-card-container">
-                    <div class="card projects-info-card" data-toggle="modal" data-target="#projects-Modal">
-                        <div class="card-block projects-info-card-block">
-                            <h4 class="card-title projects-info-card-title">Industry and Institutions Interaction</h4>
-                            <!--                            <p class="card-text projects-info-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
+                <div class="event-info-card-container">
+                    <div class="card event-info-card" data-toggle="modal" data-target="#event-Modal">
+                        <div class="card-block event-info-card-block">
+                            <h5 class="card-title event-info-card-title">Industry and Institutions Interaction</h5>
+<!--                            <p class="card-text event-info-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col-md-3">
-                <div class="projects-info-card-container">
-                    <div class="card projects-info-card" data-toggle="modal" data-target="#projects-Modal">
-                        <div class="card-block projects-info-card-block">
-                            <h4 class="card-title projects-info-card-title">projects 1</h4>
-                            <!--                            <p class="card-text projects-info-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
+                <div class="event-info-card-container">
+                    <div class="card event-info-card" data-toggle="modal" data-target="#event-Modal">
+                        <div class="card-block event-info-card-block">
+                            <h5 class="card-title event-info-card-title">event 1</h5>
+<!--                            <p class="card-text event-info-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col-md-3">
-                <div class="projects-info-card-container">
-                    <div class="card projects-info-card" data-toggle="modal" data-target="#projects-Modal">
-                        <div class="card-block projects-info-card-block">
-                            <h4 class="card-title projects-info-card-title">projects 1</h4>
-                            <!--                            <p class="card-text projects-info-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
+                <div class="event-info-card-container">
+                    <div class="card event-info-card" data-toggle="modal" data-target="#event-Modal">
+                        <div class="card-block event-info-card-block">
+                            <h5 class="card-title event-info-card-title">event 1</h5>
+<!--                            <p class="card-text event-info-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col-md-3">
-                <div class="projects-info-card-container">
-                    <div class="card projects-info-card" data-toggle="modal" data-target="#projects-Modal">
-                        <div class="card-block projects-info-card-block">
-                            <h4 class="card-title projects-info-card-title">projects 1</h4>
-                            <!--                            <p class="card-text projects-info-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
+                <div class="event-info-card-container">
+                    <div class="card event-info-card" data-toggle="modal" data-target="#event-Modal">
+                        <div class="card-block event-info-card-block">
+                            <h5 class="card-title event-info-card-title">event 1</h5>
+<!--                            <p class="card-text event-info-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col-md-3">
-                <div class="projects-info-card-container">
-                    <div class="card projects-info-card" data-toggle="modal" data-target="#projects-Modal">
-                        <div class="card-block projects-info-card-block">
-                            <h4 class="card-title projects-info-card-title">projects 1</h4>
-                            <!--                            <p class="card-text projects-info-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
+                <div class="event-info-card-container">
+                    <div class="card event-info-card" data-toggle="modal" data-target="#event-Modal">
+                        <div class="card-block event-info-card-block">
+                            <h5 class="card-title event-info-card-title">event 1</h5>
+<!--                            <p class="card-text event-info-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
                         </div>
                     </div>
                 </div>
@@ -140,8 +143,8 @@ $cont = <<<EOT
 
 
 <!-- Modal -->
-<div class="modal fade" id="projects-Modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog projects-modal-dialog projects-modal" role="document">
+<div class="modal fade" id="event-Modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog event-modal-dialog event-modal" role="document">
         <div class="modal-content">
             <div class="modal-header">
                 <h5 class="modal-title" id="exampleModalLabel">Expert lecture on “ Convergence and unified communications”</h5>
@@ -227,20 +230,19 @@ $cont = <<<EOT
                         <th scope="row">Event Pictures</th>
                         <td>
                             <div class="row">
-                                <div class="col-lg-6 col-md-6 projects-image-container">
+                                <div class="col-lg-6 col-md-6 event-image-container">
                                     <img src="../img/1.jpg">
                                 </div>
-                                <div class="col-lg-6 col-md-6 projects-image-container">
+                                <div class="col-lg-6 col-md-6 event-image-container">
                                     <img src="../img/1.jpg">
                                 </div>
-                                <div class="col-lg-6 col-md-6 projects-image-container">
+                                <div class="col-lg-6 col-md-6 event-image-container">
                                     <img src="../img/1.jpg">
                                 </div>
-                                <div class="col-lg-6 col-md-6 projects-image-container">
+                                <div class="col-lg-6 col-md-6 event-image-container">
                                     <img src="../img/1.jpg">
                                 </div>
                             </div>
-
                         </td>
                     </tr>
                     </tbody>
@@ -249,8 +251,4 @@ $cont = <<<EOT
         </div>
     </div>
 </div>
-<script type="text/javascript" src="js/projects.js"></script>
-
-EOT;
-print($cont);
-?>
+<script type="text/javascript" src="js/events.js"></script>

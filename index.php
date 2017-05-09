@@ -96,6 +96,7 @@
 
 
 <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="js/handlebars-v4.0.5.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
 <script type="text/javascript" src="js/sammy-latest.min.js"></script>
 <script type="text/javascript" src="js/bootstrap-datepicker.js"></script>
