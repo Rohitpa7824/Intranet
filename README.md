@@ -2,7 +2,7 @@
 
 ###### This is fully fledged Intranet for the Birla Vishvakarma Mahavidyalaya College , CP Department.
 
-select event API documentation:
+# select event API documentation:
 --must send POST request--
 --only parameter : data--
 filter by id:
