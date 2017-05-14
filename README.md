@@ -18,13 +18,16 @@ data: Date From=mm/dd/yyyy
 
 filter by time from:
 data: Time From=hh:mm:ss
+
 where hh in 24 hour format
 
 filter by multiple parameters:
 --delimit by ";" symbol--
+
 data: Date From=1/2/2017;Time From=2:00:00
 
 filter by other varchar parameters like sponser, event description, expert:
+
 data: paraname=paravalue;paraname2=paravalue2
 
 filter by files grater than:
